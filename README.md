@@ -24,21 +24,7 @@ Dự án kết hợp sức mạnh của **Hybrid AI Architecture**:
 ---
 
 ## 🧱 Kiến trúc hệ thống
-
-```mermaid
-graph TD
-    User[User Voice] -->|Mic| ASR[Android SpeechRecognizer]
-    ASR -->|Text| VoiceBotManager
-    VoiceBotManager -->|Query| QA[QA Engine<br/>Local DB]
-    
-    QA -->|Found| ResponseFlow
-    QA -->|Not Found| LLM[LiteRT LLM<br/>Qwen2.5]
-    LLM -->|Stream| ResponseFlow
-
-    ResponseFlow -->|Chunks| Normalizer[Text/Number Normalizer]
-    Normalizer -->|Sentence| TTS[Android TTS]
-    TTS -->|Audio| Speaker[Loa]
-```
+![OneAI_Image1 (1)](https://github.com/user-attachments/assets/954486f8-5c86-4665-83c3-f2cae2aba9e0)
 
 1.  **Audio Input:** `SpeechRecognizer` lắng nghe và chuyển đổi giọng nói.
 2.  **Logic:**
