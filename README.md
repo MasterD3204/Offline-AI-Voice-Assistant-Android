@@ -6,9 +6,6 @@ Dự án kết hợp sức mạnh của **Hybrid AI Architecture**:
 *   ✅ **Local Knowledge Base:** Tìm kiếm câu trả lời tức thì (10-50ms) từ dữ liệu nội bộ.
 *   ✅ **Local LLM (Qwen2.5):** Xử lý ngôn ngữ tự nhiên phức tạp ngay trên điện thoại.
 *   ✅ **Streaming Response:** Phản hồi từng từ theo thời gian thực (Real-time).
-*   ✅ **Smart TTS:** Cơ chế ngắt câu thông minh giúp giọng đọc tự nhiên và độ trễ thấp.
-
-![Architecture Overview](https://via.placeholder.com/800x400?text=Architecture+Diagram+Here) *(Bạn có thể thay bằng ảnh screenshot app)*
 
 ---
 
@@ -22,7 +19,6 @@ Dự án kết hợp sức mạnh của **Hybrid AI Architecture**:
     -   Tự động chuẩn hóa số liệu ("123" -> "một trăm hai ba").
     -   **Fast Start:** Phát âm thanh ngay sau 2 từ đầu tiên, không chờ cả câu.
     -   **Sentence Queue:** Đảm bảo thứ tự phát dù xử lý song song.
--   **Software Gating (Chống lặp âm):** Cơ chế chặn Micro thông minh khi Bot đang nói để tránh vòng lặp vô tận (Self-Feedback Loop).
 -   **Performance Metrics:** Hiển thị trực quan độ trễ (TTFT, TTFA, Query Latency) ngay trên màn hình.
 
 ---
