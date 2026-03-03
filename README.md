@@ -59,7 +59,7 @@ Dự án cần các file dữ liệu lớn (không commit lên Git). Hãy tải 
 | :--- | :--- | :--- |
 | `qa_database.txt` | Dữ liệu câu hỏi - trả lời mẫu | `/sdcard/Download/` hoặc Assets |
 | `vi_fasttext_pruned.vec` | Vector từ điển tiếng Việt rút gọn | `/sdcard/Download/` hoặc Assets |
-| `https://huggingface.co/litert-community/Qwen2.5-1.5B-Instruct.litertlm` | Model LLM lượng tử hóa (1.5GB) | `/sdcard/Download/` |
+| `[https://huggingface.co/litert-community/Qwen2.5-1.5B-Instruct.litertlm](https://huggingface.co/litert-community/Qwen2.5-1.5B-Instruct/blob/main/Qwen2.5-1.5B-Instruct_multi-prefill-seq_q8_ekv4096.litertlm)` | Model LLM lượng tử hóa (1.5GB) | `/sdcard/Download/` |
 
 *(Lưu ý: Bạn có thể đặt file trong `app/src/main/assets` để build cùng app, nhưng sẽ làm tăng kích thước APK đáng kể).*
 
