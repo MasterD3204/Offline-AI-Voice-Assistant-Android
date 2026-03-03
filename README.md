@@ -29,10 +29,10 @@ Dự án kết hợp sức mạnh của **Hybrid AI Architecture**:
 graph TD
     User[User Voice] -->|Mic| ASR[Android SpeechRecognizer]
     ASR -->|Text| VoiceBotManager
-    VoiceBotManager -->|Query| QA[QA Engine (Local DB)]
+    VoiceBotManager -->|Query| QA[QA Engine<br/>Local DB]
     
     QA -->|Found| ResponseFlow
-    QA -->|Not Found| LLM[LiteRT LLM (Qwen2.5)]
+    QA -->|Not Found| LLM[LiteRT LLM<br/>Qwen2.5]
     LLM -->|Stream| ResponseFlow
 
     ResponseFlow -->|Chunks| Normalizer[Text/Number Normalizer]
